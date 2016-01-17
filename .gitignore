@@ -1,0 +1,10 @@
+.DS_Store
+composer.lock
+cache/
+resources/
+twig-templates/
+update/
+vendor/
+.vagrant
+.env
+install.sh
