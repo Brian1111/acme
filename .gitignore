@@ -8,3 +8,5 @@ vendor/
 .vagrant
 .env
 install.sh
+phinx.yml
+composer.phar
