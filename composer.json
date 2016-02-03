@@ -1,5 +1,6 @@
 {
-    "name": "vm/acme",
+    "name": "brian/acme",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Brian Smith",
@@ -7,21 +8,20 @@
         }
     ],
     "require": {
-        "filp/whoops": "^2.0",
+        "filp/whoops": "2.0.0",
         "vlucas/phpdotenv": "~1.1",
-        "illuminate/database": "5.1.*",
+        "illuminate/database": "5.2.7",
         "altorouter/altorouter": "1.1.0",
-        "respect/validation": "^1.0",
+        "respect/validation": "1.0.3",
         "duncan3dc/blade": "3.0.0",
         "robmorgan/phinx": "^0.5.1",
         "cocur/slugify": "^1.4",
-        "symfony/var-dumper": "^3.0"
-
+        "symfony/var-dumper": "3.0.1",
+        "swiftmailer/swiftmailer": "^5.4",
+        "phpunit/phpunit": "^5.1",
+        "kunststube/csrfp": "^0.1.0"
     },
     "autoload": {
-      "psr-4": {"Acme\\": "src/"}
-    },
-
-    "license": "proprietary"
-
+      "psr-4": { "Acme\\": "src/" }
+    }
 }
